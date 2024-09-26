@@ -1,0 +1,31 @@
+package server.managers.commands;
+
+import data.network.Request;
+import server.exceptions.WrongArgumentException;
+import server.managers.Reciewer;
+
+import java.io.Serializable;
+
+/**
+ * Данная команда выводит описание всех команд
+ *
+ * @author Konstantin
+ * @see BaseCommand
+ * @since 1.0
+ */
+public class HelpCommand implements BaseCommand, Serializable {
+    @Override
+    public String execute(Request request) throws Exception{
+        return Reciewer.showHelp();
+    }
+
+    @Override
+    public String getName() {
+        return "help";
+    }
+
+    @Override
+    public String getDescription() {
+        return "use this command to see information";
+    }
+}

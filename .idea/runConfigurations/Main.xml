@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Main" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="server.system.Main" />
+    <module name="project_lab_5" />
+    <option name="PROGRAM_PARAMETERS" value="C:\Users\VikTester\Desktop\ED\orders\prog_lab5_stas\project_lab_5\src\system\data.csv" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
